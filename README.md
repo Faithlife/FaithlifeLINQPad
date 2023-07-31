@@ -1,6 +1,6 @@
 # Faithlife.LINQPad
 
-Faithlife.LINQPad class library.
+Faithlife LINQPad helpers.
 
 [![Build](https://github.com/Faithlife/FaithlifeLINQPad/workflows/Build/badge.svg)](https://github.com/Faithlife/FaithlifeLINQPad/actions?query=workflow%3ABuild) [![NuGet](https://img.shields.io/nuget/v/Faithlife.LINQPad.svg)](https://www.nuget.org/packages/Faithlife.LINQPad)
 
