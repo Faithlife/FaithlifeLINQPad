@@ -3,3 +3,8 @@ _site/
 
 Thumbs.db
 .jekyll-metadata
+
+# Artifacts from local development
+obj/
+bin/
+.vs/
