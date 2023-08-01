@@ -9,7 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LINQPad.Runtime" Version="7.7.15" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" GeneratePathProperty="true">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.CsWin32" Version="0.3.18-beta">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Nito.Disposables" Version="2.4.0" />
+    <PackageReference Include="NuGet.Packaging" Version="6.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <EmbeddedResource Include="$(PkgMicrosoft_NETCore_Platforms)\runtime.json" Link="runtime.json" />
   </ItemGroup>
 
 </Project>
